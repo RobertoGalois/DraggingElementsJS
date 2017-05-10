@@ -29,7 +29,11 @@
 		//si on bouge la souris dans la page, on check si c'est pour dragger et on fait ce qu'il faut en conséquence
 		window.document.addEventListener('mousemove', evMouseMove);
 	}
-
+	
+	/*****************************
+	 * FONCTIONS EVENT
+	 *****************************/
+	
 	//si on clique down sur un element draggable
 	function evMouseDown(e)
 	{
