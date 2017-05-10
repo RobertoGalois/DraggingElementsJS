@@ -45,7 +45,7 @@
 		draggedElementInfos.posY = e.clientY - draggedElementInfos.eventTarget.offsetTop;
 	}
 
-	//si on relarche le bouton de souris sur un element draggable 
+	//si on relache le bouton de souris sur un element draggable 
 	function evMouseUp(e)
 	{
 		//on reinitialise notre objet de stockage, ce qui fait que les 3 attributs ~ null
