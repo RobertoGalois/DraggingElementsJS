@@ -23,6 +23,11 @@
 		//on assigne a chaque div draggable les event mouseUp et mouseDown
 		for(var i=0; i<nombreElements; i++)
 		{
+			//on change la position de l'element en position absolu et on defini ses top et left à sa position de départ.
+			elements[i].style.top = elements[i].offsetTop;
+			elements[i].style.left = elements[i].offsetLeft;
+			elements[i].style.position = 'absolute';
+			//on affecte les event
 			elements[i].addEventListener('mousedown', evMouseDown);
 			elements[i].addEventListener('mouseup', evMouseUp);
 		}
